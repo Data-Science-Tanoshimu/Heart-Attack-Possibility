@@ -3,6 +3,7 @@
 ### Intro
 Disease prediction helps you keep healthy. In addition, you can deal with your health problem more effectively before you get a diseases if you know what makes you sick. The heart attack prediction models will be created in this project. The causal relationships between variables will also be considered using ['Health care: Heart attack possibility' dataset in Kaggle](https://www.kaggle.com/nareshbhat/health-care-data-set-on-heart-attack-possibility).
 
+---
 
 ### Dataset
 This database contains 76 attributes, but all published experiments refer to using a subset of 14 of them. In particular, the Cleveland database is the only one that has been used by ML researchers to
@@ -25,3 +26,14 @@ Attribute Information
 14) target: 0= less chance of heart attack 1= more chance of heart attack
 
 Dataset is taken for learning purpose. Source of the data : https://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+---
+
+### Prediction Model
+4 models were created (logistic regression, support vector machine, random forest, and lightgdb).
+
+
+---
+
+### Causal Estimation
+Causal relationships between the variables were estimated using a bayesian network. Bayesian network is a probabilistic graphical model which is used for visualizing the causality between variables ([See this blog post](https://deepmind.com/blog/article/Causal_Bayesian_Networks)). 
