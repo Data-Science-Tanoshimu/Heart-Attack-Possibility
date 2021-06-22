@@ -36,4 +36,7 @@ Dataset is taken for learning purpose. Source of the data : https://archive.ics.
 ---
 
 ### Causal Estimation
-Causal relationships between the variables were estimated using a bayesian network. Bayesian network is a probabilistic graphical model which is used for visualizing the causality between variables ([See this blog post](https://deepmind.com/blog/article/Causal_Bayesian_Networks)). 
+Causal relationships between the variables were estimated using a bayesian network. Bayesian network is a probabilistic graphical model which is used for visualizing the causality between variables ([See this blog post](https://deepmind.com/blog/article/Causal_Bayesian_Networks)). The network is estiated using PC algorithm and the test of independence(Chi-squared test). Here, a bayesian network was estimated using pgmpy which is a library to estimate the network.
+
+
+One relationship ('ca' -> 'age') seems it is a wrong causal connection. Generally speaking, 'ca' does not increase your age. It is assumed that when 'age' increases, 'ca' could also increase instead. Therefore, it could considered 'ca' and 'age' just connect undirectedly ('ca' - 'age').
