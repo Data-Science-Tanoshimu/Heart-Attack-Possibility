@@ -39,4 +39,4 @@ Dataset is taken for learning purpose. Source of the data : https://archive.ics.
 Causal relationships between the variables were estimated using a bayesian network. A bayesian network is a probabilistic graphical model which is used for visualizing the causality between variables ([See this blog post](https://deepmind.com/blog/article/Causal_Bayesian_Networks)). The network is estiated using a PC algorithm, a test of independence (Chi-squared test). Here, a Python library called pgmpy was used to estimate a bayesian network.
 
 
-The ('ca' -> 'age') relationship appears to be a wrong causal connection. Generally speaking, 'ca' does not increase your age. It is assumed that when 'age' increases, 'ca' could also increase instead. Therefore, it could be considered that 'ca' and 'age' have a undirected connection ('ca' - 'age').
+The ('ca' -> 'age') relationship appears to be a wrong causal connection. Generally speaking, 'ca' does not increase your age. It is assumed that when 'age' increases, 'ca' could also increase instead. Therefore, it could be considered that 'ca' and 'age' have an undirected connection ('ca' - 'age').
