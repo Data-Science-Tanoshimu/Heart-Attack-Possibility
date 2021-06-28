@@ -32,6 +32,8 @@ Dataset is taken for learning purpose. Source of the data : https://archive.ics.
 ### Prediction Model
 4 models were created (logistic regression, support vector machine, random forest, and lightgdb).
 
+![model_scores](./model_scores.PNG)
+
 
 ---
 
