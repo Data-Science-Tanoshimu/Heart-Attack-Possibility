@@ -34,6 +34,12 @@ Dataset is taken for learning purpose. Source of the data : https://archive.ics.
 
 ![model_scores](./model_scores.JPG)
 
+the lightgbm model was chosen for the best model because the difference between the training and the testing scores were relatively small and the testing score was also the highest.
+
+![roc_curve](roc_curve.JPG)
+
+The false positive rate is about 0.3 even if the true positive rate is about 0.9. This is still a good point of compromise to set the threshold if you would not like to miss many people who are actually likely to have a heart attack.
+
 
 ---
 
