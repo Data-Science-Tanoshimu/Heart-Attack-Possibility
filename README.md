@@ -42,6 +42,7 @@ Causal relationships between the variables were estimated using a bayesian netwo
 
 ![The bayesian network](dag.PNG)
 
+Only 'ca' and 'thal' directed to 'target'. The important variables to predict 'target' might be 'ca' and 'thal'.
 
 The ('ca' -> 'age') relationship appears to be a wrong causal connection. Generally speaking, 'ca' does not increase your age. It is assumed that when 'age' increases, 'ca' could also increase instead. Therefore, it could be considered that 'ca' and 'age' have an undirected connection ('ca' - 'age').
 
