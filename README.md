@@ -1,7 +1,7 @@
 # Heart Attack Possibility
 
 ### Intro
-Disease prediction helps you keep healthy. In addition, you can deal with your health problem more effectively before you get a diseases if you know what makes you sick. This project goes over creating heart attack prediction models. The causal relationships between variables will also be considered using ['Health care: Heart attack possibility' dataset in Kaggle](https://www.kaggle.com/nareshbhat/health-care-data-set-on-heart-attack-possibility).
+Disease prediction helps you keep healthy. In addition, you can deal with your health problem more effectively before you get a diseases if you know what makes you sick. This project goes over creating heart attack prediction models. The causal relationships between variables will also be considered. The data is from ['Health care: Heart attack possibility' dataset in Kaggle](https://www.kaggle.com/nareshbhat/health-care-data-set-on-heart-attack-possibility).
 
 ---
 
