@@ -44,3 +44,5 @@ Causal relationships between the variables were estimated using a bayesian netwo
 
 
 The ('ca' -> 'age') relationship appears to be a wrong causal connection. Generally speaking, 'ca' does not increase your age. It is assumed that when 'age' increases, 'ca' could also increase instead. Therefore, it could be considered that 'ca' and 'age' have an undirected connection ('ca' - 'age').
+
+Bayesian network is helpful to visualize the causality but it might fail sometimes. It might also be useful to discover new causality.
